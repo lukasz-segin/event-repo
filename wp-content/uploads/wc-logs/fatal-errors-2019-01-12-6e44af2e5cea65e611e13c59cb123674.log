@@ -1,0 +1,531 @@
+2019-01-12T21:49:09+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T21:50:09+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T21:51:09+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T21:52:09+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T21:53:07+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T21:54:07+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T21:55:07+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T21:56:07+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T21:57:07+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T21:58:07+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T21:58:22+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('180.101.157.178')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('180.101.157.178')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('180.101.157.178', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('180.101.157.178', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerc w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T21:58:41+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('117.157.68.110')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('117.157.68.110')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('117.157.68.110', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('117.157.68.110', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T21:58:46+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('58.247.249.189')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('58.247.249.189')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('58.247.249.189', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('58.247.249.189', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T21:59:07+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:00:07+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:00:53+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('106.111.32.199')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('106.111.32.199')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('106.111.32.199', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('106.111.32.199', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:00:58+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('82.147.220.206')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('82.147.220.206')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('82.147.220.206', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('82.147.220.206', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:01:07+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:01:24+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('117.95.229.120')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('117.95.229.120')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('117.95.229.120', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('117.95.229.120', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:01:29+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('114.239.105.104')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('114.239.105.104')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('114.239.105.104', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('114.239.105.104', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerc w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:01:30+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('60.223.78.139')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('60.223.78.139')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('60.223.78.139', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('60.223.78.139', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includ w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:01:52+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('111.4.127.142')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('111.4.127.142')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('111.4.127.142', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('111.4.127.142', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includ w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:02:07+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:02:25+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('114.250.151.150')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('114.250.151.150')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('114.250.151.150', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('114.250.151.150', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerc w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:02:28+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('49.89.115.24')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('49.89.115.24')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('49.89.115.24', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('49.89.115.24', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/d w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:02:28+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('58.59.213.100')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('58.59.213.100')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('58.59.213.100', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('58.59.213.100', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includ w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:02:30+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('111.198.208.246')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('111.198.208.246')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('111.198.208.246', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('111.198.208.246', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerc w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:02:33+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('110.252.54.34')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('110.252.54.34')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('110.252.54.34', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('110.252.54.34', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includ w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:02:42+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('114.239.107.252')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('114.239.107.252')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('114.239.107.252', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('114.239.107.252', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerc w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:02:47+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('200.93.16.42')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('200.93.16.42')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('200.93.16.42', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('200.93.16.42', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/d w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:03:07+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:03:11+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('114.239.107.252')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('114.239.107.252')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('114.239.107.252', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('114.239.107.252', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerc w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:03:36+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('49.89.127.217')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('49.89.127.217')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('49.89.127.217', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('49.89.127.217', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includ w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:03:36+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('49.70.63.246')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('49.70.63.246')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('49.70.63.246', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('49.70.63.246', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/d w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:04:07+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:04:17+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('221.3.189.18')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('221.3.189.18')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('221.3.189.18', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('221.3.189.18', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/d w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:04:27+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('218.241.251.150')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('218.241.251.150')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('218.241.251.150', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('218.241.251.150', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerc w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:04:35+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('114.239.107.167')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('114.239.107.167')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('114.239.107.167', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('114.239.107.167', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerc w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:04:37+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('49.89.204.53')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('49.89.204.53')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('49.89.204.53', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('49.89.204.53', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/d w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:04:47+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('60.161.145.243')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('60.161.145.243')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('60.161.145.243', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('60.161.145.243', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:04:50+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('49.70.12.34')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('49.70.12.34')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('49.70.12.34', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('49.70.12.34', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data- w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:05:00+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('85.105.37.157')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('85.105.37.157')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('85.105.37.157', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('85.105.37.157', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includ w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:05:01+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('116.52.98.43')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('116.52.98.43')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('116.52.98.43', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('116.52.98.43', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/d w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:05:07+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:05:14+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:05:19+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:05:20+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:05:21+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:05:23+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:05:24+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:05:35+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('106.81.231.167')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('106.81.231.167')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('106.81.231.167', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('106.81.231.167', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:05:41+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('221.202.168.254')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('221.202.168.254')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('221.202.168.254', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('221.202.168.254', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerc w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:05:41+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:05:54+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('219.152.79.204')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('219.152.79.204')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('219.152.79.204', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('219.152.79.204', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:05:57+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('219.144.202.167')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('219.144.202.167')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('219.144.202.167', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('219.144.202.167', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerc w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:05:58+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:06:00+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:06:01+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+
+2019-01-12T22:06:18+00:00 CRITICAL Uncaught Error: Call to undefined function MaxMind\Db\filter_var() in /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php:103
+Stack trace:
+#0 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolite-integration.php(59): MaxMind\Db\Reader->get('213.76.115.131')
+#1 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(314): WC_Geolite_Integration->get_country_iso('213.76.115.131')
+#2 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/class-wc-geolocation.php(213): WC_Geolocation::geolocate_via_db('213.76.115.131', '/usr/home/caem2...')
+#3 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(1070): WC_Geolocation::geolocate_ip('213.76.115.131', true, false)
+#4 /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(128): wc_get_customer_default_location()
+#5 /usr/home/caem2019/www/wp-content/plugins/woocommerce/in w /usr/home/caem2019/www/wp-content/plugins/woocommerce/includes/libraries/geolite2/Reader.php w linii 103
+

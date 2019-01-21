@@ -1,0 +1,78 @@
+
+---Downloaded files---
+The import files for: Import Demo Content were successfully downloaded!
+Initial max execution time = 240
+Files info:
+Site URL = http://caem2019.pl
+Data file = /usr/home/caem2019/www/wp-content/plugins/event-demo-importer/inc/ocdi/event.xml
+Widget file = /usr/home/caem2019/www/wp-content/plugins/event-demo-importer/inc/ocdi/event-widgets.wie
+Customizer file = /usr/home/caem2019/www/wp-content/plugins/event-demo-importer/inc/ocdi/event-export.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Main Sidebar : 
+
+Wyszukiwanie - No Title - Widget already exists
+Tekst - About Us - Imported
+rpwe_widget - Recent Posts - Site does not support widget
+Archiwa - No Title - Widget already exists
+Kategorie - No Title - Widget already exists
+Meta - No Title - Widget already exists
+
+Display Contact Info at Header  : 
+
+TF: Contact Us - No Title - Imported
+
+Contact Page Sidebar : 
+
+Tekst - About Us - Imported
+TF: Contact Us - Contact Us - Imported
+
+Shortcode For Contact Page : 
+
+Tekst - No Title - Imported
+
+WooCommerce Sidebar : 
+
+Koszyk - Cart - Imported
+Filtr produktów wg ceny - Filter by price - Imported
+Kategorie produktów - Product Categories - Imported
+Produkty - Products - Imported
+Produkty według oceny - Top Rated Products - Imported
+
+Footer Column 1 : 
+
+Tekst - Event - Imported
+
+Footer Column 2 : 
+
+Kategorie - Category - Imported
+
+Footer Column 3 : 
+
+rpwe_widget - Recent Posts - Site does not support widget
+
+Footer Column 4 : 
+
+TF: Contact Us - Contact Us - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+
