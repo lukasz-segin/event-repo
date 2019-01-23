@@ -48,10 +48,10 @@ function event_our_testimonial(){
 										<li>
 										<?php if(get_the_content()): ?>
 											<div class="testimonial-quote">
-												<i class="fa fa-quote-left"></i>
+<!--												<i class="fa fa-quote-left"></i>-->
 												<?php the_content(); ?>
-												 <cite><?php the_title(); ?></cite>
-												<i class="fa fa-caret-down"></i>
+<!--												 <cite>--><?php //the_title(); ?><!--</cite>-->
+<!--												<i class="fa fa-caret-down"></i>-->
 											</div>
 											<?php endif;
 											if (has_post_thumbnail()) {
