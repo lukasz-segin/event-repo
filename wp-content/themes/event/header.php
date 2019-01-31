@@ -82,6 +82,20 @@ $event_settings = event_get_theme_options(); ?>
                 <?php } ?>
             </div> <!-- end .container -->
         </div> <!-- end #sticky-header -->
+        <!-- Patronat Marszalka ============================================= -->
+        <div class="our-feature-box" style="padding: 20px 0 20px 74px; position: inherit; text-align: inherit;">
+            <div class="container clearfix">
+                <div class="column clearfix">
+                    <!-- <div class="three-column">-->
+                    <div class="feature-content">
+                        <img src="https://caem2019.pl/wp-content/uploads/2019/01/herb_poziom.jpg"
+                             alt="Patronat Marszałka -Międzynarodowa konferencja Naukowa"/>
+                    </div> <!-- end .feature-content -->
+                    <!-- </div>end .three-column -->
+
+                </div><!-- .end column-->
+            </div><!-- .container -->
+        </div><!-- end .our-feature-box -->
         <?php
         $enable_slider = $event_settings['event_enable_slider'];
         if ($enable_slider == 'frontpage' || $enable_slider == 'enitresite') {
@@ -128,18 +142,3 @@ $event_settings = event_get_theme_options(); ?>
             if (is_page_template('upcoming-event-template.php') || is_page_template('program-schedule-template.php')) {
                 echo '</div><!-- end .container -->';
             }
-
-            echo '<!-- Patronat Marszalka ============================================= -->'; ?>
-            <div class="our-feature-box">
-                <div class="container clearfix">
-                    <div class="column clearfix">
-                        <!-- <div class="three-column">-->
-                        <div class="feature-content">
-                            <img src="https://caem2019.pl/wp-content/uploads/2019/01/herb_poziom.jpg"
-                                 alt="Patronat Marszałka -Międzynarodowa konferencja Naukowa"/>
-                        </div> <!-- end .feature-content -->
-                        <!-- </div>end .three-column -->
-
-                    </div><!-- .end column-->
-                </div><!-- .container -->
-            </div><!-- end .our-feature-box -->
