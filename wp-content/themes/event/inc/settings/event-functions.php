@@ -127,48 +127,50 @@ function event_sticky_post_sliders() {
 			while ($query->have_posts()):$query->the_post();
 			$cats = get_the_category();
 			$cat_name = $cats[0]->name;
+			$content = get_the_content();
 			$attachment_id = get_post_thumbnail_id();
 			$image_attributes = wp_get_attachment_image_src($attachment_id,'event_slider_image');
 						$title_attribute       	 	 = apply_filters('the_title', get_the_title(get_queried_object_id()));
 						$excerpt               	 	 = get_the_excerpt();
-                        $the_content                 = get_the_content();
 				$event_sticky_post_sliders_display    	.= '<li>';
 				if ($image_attributes) {
 					$event_sticky_post_sliders_display 	.= '<div class="image-slider" title="'.the_title('', '', false).'"' .' style="background-image:url(' ."'" .esc_url($image_attributes[0])."'" .')">';
 				}else{
 					$event_sticky_post_sliders_display 	.= '<div class="image-slider">';
 				}
-				if ($title_attribute != '' || $excerpt != '') {
-					$event_sticky_post_sliders_display 	.= '<article class="slider-content">';
-				}
-//					$event_sticky_post_sliders_display 	.= '<h4 class="slider-sub-title">'.esc_attr($cat_name).'</h4><!-- .slider-title -->';
-				$remove_link = $event_settings['event_slider_link'];
-					if($remove_link == 0){
-						if ($title_attribute != '') {
-//							$event_sticky_post_sliders_display .= '<h2 class="slider-title"><a href="'.esc_url(get_permalink()).'" title="'.the_title('', '', false).'" rel="bookmark">'.get_the_title().'</a></h2><!-- .slider-title -->';
-							$event_sticky_post_sliders_display .= '<h2 class="slider-title">'.get_the_title().'</h2><!-- .slider-title -->';
-						}
-					}else{
-						$event_sticky_post_sliders_display .= '<h2 class="slider-title">'.get_the_title().'</h2><!-- .slider-title -->';
-					}
-					if ($excerpt != '') {
-						$excerpt_text = $event_settings['event_tag_text'];
-						$event_sticky_post_sliders_display .= '<p class="slider-text">'.wp_strip_all_tags($the_content).'</p><!-- end .slider-text -->';
-						}
-						$event_sticky_post_sliders_display 	.='<div class="slider-buttons">';
-//						if(!empty($slider_custom_text)){
-//							$event_sticky_post_sliders_display 	.= '<a title="'.esc_attr($slider_custom_text).'"' .' href="'.esc_url($slider_custom_url). '"'. ' class="btn-default vivid" target="_blank">'.esc_attr($slider_custom_text). '</a>';
-//						}
-						// if($event_settings['event_slider_button'] == 0){
-						// 	if($excerpt_text == '' || $excerpt_text == 'Read More') :
-						// 		$event_sticky_post_sliders_display 	.= '<a title='.'"'.get_the_title(). '"'. ' '.'href="'.esc_url(get_permalink()).'"'.' class="btn-default light">'.__('Read More', 'event').'</a>';
-						// 	else:
-						// 		$event_sticky_post_sliders_display 	.= '<a title='.'"'.get_the_title(). '"'. ' '.'href="'.esc_url(get_permalink()).'"'.' class="btn-default light">'.$event_settings[ 'event_tag_text' ].'</a>';
-						// 	endif;
-						// }
-					
-						$event_sticky_post_sliders_display 	.= '</div>';
-						$event_sticky_post_sliders_display 	.='</article><!-- end .slider-content --> ';
+				if ($cat_name != 'bez_tytulu') {
+                    if ($title_attribute != '' || $excerpt != '') {
+                        $event_sticky_post_sliders_display .= '<article class="slider-content">';
+                    }
+//                    $event_sticky_post_sliders_display .= '<h4 class="slider-sub-title">' . esc_attr($cat_name) . '</h4><!-- .slider-title -->';
+//                    $remove_link = $event_settings['event_slider_link'];
+//                    if ($remove_link == 0) {
+//                        if ($title_attribute != '') {
+//                            $event_sticky_post_sliders_display .= '<h2 class="slider-title"><a href="' . esc_url(get_permalink()) . '" title="' . the_title('', '', false) . '" rel="bookmark">' . get_the_title() . '</a></h2><!-- .slider-title -->';
+//                        }
+//                    } else {
+                        $event_sticky_post_sliders_display .= '<h2 class="slider-title">' . get_the_title() . '</h2><!-- .slider-title -->';
+//                    }
+                    if ($excerpt != '') {
+                        $excerpt_text = $event_settings['event_tag_text'];
+//                        $event_sticky_post_sliders_display .= '<p class="slider-text">' . wp_strip_all_tags($excerpt) . '</p><!-- end .slider-text -->';
+                        $event_sticky_post_sliders_display .= '<p class="slider-text">' . wp_strip_all_tags($content) . '</p><!-- end .slider-text -->';
+                    }
+//                    $event_sticky_post_sliders_display .= '<div class="slider-buttons">';
+//                    if (!empty($slider_custom_text)) {
+//                        $event_sticky_post_sliders_display .= '<a title="adfadf' . esc_attr($slider_custom_text) . '"' . ' href="' . esc_url($slider_custom_url) . '"' . ' class="btn-default vivid" target="_blank">' . esc_attr($slider_custom_text) . '</a>';
+//                    }
+//                    if ($event_settings['event_slider_button'] == 0) {
+//                        if ($excerpt_text == '' || $excerpt_text == 'Read More') :
+//                            $event_sticky_post_sliders_display .= '<a title=' . '"' . get_the_title() . '"' . ' ' . 'href="' . esc_url(get_permalink()) . '"' . ' class="btn-default light">' . __('adfadfRead More', 'event') . '</a>';
+//                        else:
+//                            $event_sticky_post_sliders_display .= '<a title=' . '"' . get_the_title() . '"' . ' ' . 'href="' . esc_url(get_permalink()) . '"' . ' class="btn-default light">' . $event_settings['event_tag_text'] . '</a>';
+//                        endif;
+//                    }
+//
+//                    $event_sticky_post_sliders_display .= '</div>';
+                    $event_sticky_post_sliders_display .= '</article><!-- end .slider-content --> ';
+                }
 
 				$event_sticky_post_sliders_display 	.='</div><!-- end .image-slider -->';
 				$j++;

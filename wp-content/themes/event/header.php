@@ -86,16 +86,35 @@ $event_settings = event_get_theme_options(); ?>
         <div class="our-feature-box" style="padding: 20px 0 20px 74px; position: inherit; text-align: inherit;">
             <div class="container clearfix">
                 <div class="column clearfix">
-                    <!-- <div class="three-column">-->
-                    <div class="feature-content">
-                        <img src="https://caem2019.pl/wp-content/uploads/2019/01/herb_poziom.jpg"
-                             alt="Patronat Marszałka -Międzynarodowa konferencja Naukowa"/>
-                    </div> <!-- end .feature-content -->
-                    <!-- </div>end .three-column -->
+                    <div class="four-column">
+                        <div class="feature-content">
+                            <img src="https://caem2019.pl/wp-content/uploads/2019/02/herb_pion-e1549269152755.jpg"
+                                 alt="Patronat Marszałka -Międzynarodowa konferencja Naukowa"/>
+                        </div> <!-- end .feature-content -->
+                    </div><!-- end .four-column -->
+                    <div class="four-column">
+                        <div class="feature-content">
+                            <img src="https://caem2019.pl/wp-content/uploads/2019/02/uwm_logo2-e1549268928486.png"
+                                 alt="UWM w Olsztynie"/>
+                        </div> <!-- end .feature-content -->
+                    </div><!-- end .four-column -->
+                    <div class="four-column">
+                        <div class="feature-content">
+                            <img src="https://caem2019.pl/wp-content/uploads/2019/02/szpital-logotyp-piziomo-e1549268861843.jpg"
+                                 alt="Wojewódzki Szpital Specjalistyczny w Olsztynie"/>
+                        </div> <!-- end .feature-content -->
+                    </div><!-- end .four-column -->
+                    <div class="four-column">
+                        <div class="feature-content">
+                            <img src="https://caem2019.pl/wp-content/uploads/2019/02/UWM-logo-wydzialu_medycznego-final-e1549268647279.jpg"
+                                 alt="Wydział Lekarski Collegium Medicum"/>
+                        </div> <!-- end .feature-content -->
+                    </div><!-- end .four-column -->
 
                 </div><!-- .end column-->
             </div><!-- .container -->
         </div><!-- end .our-feature-box -->
+        <?php do_action('apply_header_images', '<div class="header_image"><h2 style="background-image: url(%url%);">%title%</h2></div>'); ?>
         <?php
         $enable_slider = $event_settings['event_enable_slider'];
         if ($enable_slider == 'frontpage' || $enable_slider == 'enitresite') {

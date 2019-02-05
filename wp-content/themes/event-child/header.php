@@ -12,119 +12,157 @@
 <?php
 $event_settings = event_get_theme_options(); ?>
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<?php wp_head(); ?>
+    <meta charset="<?php bloginfo('charset'); ?>"/>
+    <link rel="profile" href="http://gmpg.org/xfn/11"/>
+    <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"/>
+    <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-<!-- Masthead ============================================= -->
-<header id="masthead" class="site-header" role="banner">
-<?php 
-if($event_settings['event_header_image_display'] =='top'){
-	do_action('event_header_image');
-}?>
-		<div class="top-header">
-			<div class="container clearfix">
-				<?php
-				if( is_active_sidebar( 'event_header_info' )) {
-					dynamic_sidebar( 'event_header_info' );
-				}
-				if($event_settings['event_top_social_icons'] == 0):
-					echo '<div class="header-social-block">';
-						do_action('event_social_links');
-					echo '</div>'.'<!-- end .header-social-block -->';
-				endif; ?>
-			</div> <!-- end .container -->
-		</div> <!-- end .top-header -->
-		<?php 
-if($event_settings['event_header_image_display'] =='bottom'){
-	do_action('event_header_image');
-}?>
-		<!-- Main Header============================================= -->
-				<div id="sticky-header" class="clearfix">
-					<div class="container clearfix">
-					<?php
-						do_action('event_site_branding'); ?>	
-						<!-- Main Nav ============================================= -->
-						<?php
-						if (has_nav_menu('primary')) { ?>
-						<?php $args = array(
-							'theme_location' => 'primary',
-							'container'      => '',
-							'items_wrap'     => '<ul id="primary-menu" class="menu nav-menu">%3$s</ul>',
-							); ?>
-						<nav id="site-navigation" class="main-navigation clearfix">
-							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
-								<span class="line-one"></span>
-								<span class="line-two"></span>
-								<span class="line-three"></span>
-							</button><!-- end .menu-toggle -->
-							<?php wp_nav_menu($args);//extract the content from apperance-> nav menu ?>
-						</nav> <!-- end #site-navigation -->
-						<?php } else {// extract the content from page menu only ?>
-						<nav id="site-navigation" class="main-navigation clearfix">
-							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
-								<span class="line-one"></span>
-								<span class="line-two"></span>
-								<span class="line-three"></span>
-							</button><!-- end .menu-toggle -->
-							<?php	wp_page_menu(array('menu_class' => 'menu', 'items_wrap'     => '<ul id="primary-menu" class="menu nav-menu">%3$s</ul>')); ?>
-						</nav> <!-- end #site-navigation -->
-						<?php }
-						$search_form = $event_settings['event_search_custom_header'];
-						if (1 != $search_form) { ?>
-							<div id="search-toggle" class="header-search"></div>
-							<div id="search-box" class="clearfix">
-								<?php get_search_form();?>
-							</div>  <!-- end #search-box -->
-						<?php } ?>
-					</div> <!-- end .container -->
-				</div> <!-- end #sticky-header -->
-				<?php
-				$enable_slider = $event_settings['event_enable_slider'];
-						if ($enable_slider=='frontpage'|| $enable_slider=='enitresite'){
-							 if(is_front_page() && ($enable_slider=='frontpage') ) {
-								if($event_settings['event_slider_type'] == 'default_slider') {
-										event_sticky_post_sliders();
-								}else{
-									if(class_exists('Event_Plus_Features')):
-										do_action('event_image_sliders');
-									endif;
-								}
-							}
-							if($enable_slider=='enitresite'){
-								if($event_settings['event_slider_type'] == 'default_slider') {
-										event_sticky_post_sliders();
-								}else{
-									if(class_exists('Event_Plus_Features')):
-										do_action('event_image_sliders');
-									endif;
-								}
-							}
-						} ?>
-</header> <!-- end #masthead -->
-<!-- Main Page Start ============================================= -->
-<div id="content">
-<?php if(!is_page_template('page-templates/event-corporate.php') ){ ?>
-	<div class="container clearfix">
-	<?php 
-}
-if(!is_page_template('page-templates/event-corporate.php') ) {
-	$custom_page_title = apply_filters( 'event_filter_title', '' ); ?>
-		<div class="page-header">
-		<?php if(is_front_page() ){ ?>
-			<h2 class="page-title"><?php  echo event_title(); ?></h2>
-		<?php }else{ ?>
-			<h1 class="page-title"><?php  echo event_title(); ?></h1>
-		<?php } ?>
-			<!-- .page-title -->
-			<?php event_breadcrumb(); ?>
-			<!-- .breadcrumb -->
-		</div>
-		<!-- .page-header -->
-<?php }
-if(is_page_template('upcoming-event-template.php') || is_page_template('program-schedule-template.php') ){
- 	echo '</div><!-- end .container -->';
-}
+    <!-- Masthead ============================================= -->
+    <header id="masthead" class="site-header" role="banner">
+        <?php
+        if ($event_settings['event_header_image_display'] == 'top') {
+            do_action('event_header_image');
+        } ?>
+        <div class="top-header">
+            <div class="container clearfix">
+                <?php
+                if (is_active_sidebar('event_header_info')) {
+                    dynamic_sidebar('event_header_info');
+                }
+                if ($event_settings['event_top_social_icons'] == 0):
+                    echo '<div class="header-social-block">';
+                    do_action('event_social_links');
+                    echo '</div>' . '<!-- end .header-social-block -->';
+                endif; ?>
+            </div> <!-- end .container -->
+        </div> <!-- end .top-header -->
+        <?php
+        if ($event_settings['event_header_image_display'] == 'bottom') {
+            do_action('event_header_image');
+        } ?>
+        <!-- Main Header============================================= -->
+        <div id="sticky-header" class="clearfix">
+            <div class="container clearfix">
+                <?php
+                do_action('event_site_branding'); ?>
+                <!-- Main Nav ============================================= -->
+                <?php
+                if (has_nav_menu('primary')) { ?>
+                    <?php $args = array(
+                        'theme_location' => 'primary',
+                        'container' => '',
+                        'items_wrap' => '<ul id="primary-menu" class="menu nav-menu">%3$s</ul>',
+                    ); ?>
+                    <nav id="site-navigation" class="main-navigation clearfix">
+                        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                            <span class="line-one"></span>
+                            <span class="line-two"></span>
+                            <span class="line-three"></span>
+                        </button><!-- end .menu-toggle -->
+                        <?php wp_nav_menu($args);//extract the content from apperance-> nav menu ?>
+                    </nav> <!-- end #site-navigation -->
+                <?php } else {// extract the content from page menu only ?>
+                    <nav id="site-navigation" class="main-navigation clearfix">
+                        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                            <span class="line-one"></span>
+                            <span class="line-two"></span>
+                            <span class="line-three"></span>
+                        </button><!-- end .menu-toggle -->
+                        <?php wp_page_menu(array('menu_class' => 'menu', 'items_wrap' => '<ul id="primary-menu" class="menu nav-menu">%3$s</ul>')); ?>
+                    </nav> <!-- end #site-navigation -->
+                <?php }
+                $search_form = $event_settings['event_search_custom_header'];
+                if (1 != $search_form) { ?>
+                    <div id="search-toggle" class="header-search"></div>
+                    <div id="search-box" class="clearfix">
+                        <?php get_search_form(); ?>
+                    </div>  <!-- end #search-box -->
+                <?php } ?>
+            </div> <!-- end .container -->
+        </div> <!-- end #sticky-header -->
+        <!-- Patronat Marszalka ============================================= -->
+        <div class="our-feature-box" style="padding: 20px 0 20px 74px; position: inherit; text-align: inherit;">
+            <div class="container clearfix">
+                <div class="column clearfix">
+                    <div class="four-column">
+                        <div class="feature-content">
+                            <img src="https://caem2019.pl/wp-content/uploads/2019/02/herb_pion-e1549269152755.jpg"
+                                 alt="Patronat Marszałka -Międzynarodowa konferencja Naukowa"/>
+                        </div> <!-- end .feature-content -->
+                    </div><!-- end .four-column -->
+                    <div class="four-column">
+                        <div class="feature-content">
+                            <img src="https://caem2019.pl/wp-content/uploads/2019/02/uwm_logo2-e1549268928486.png"
+                                 alt="UWM w Olsztynie"/>
+                        </div> <!-- end .feature-content -->
+                    </div><!-- end .four-column -->
+                    <div class="four-column">
+                        <div class="feature-content">
+                            <img src="https://caem2019.pl/wp-content/uploads/2019/02/szpital-logotyp-piziomo-e1549268861843.jpg"
+                                 alt="Wojewódzki Szpital Specjalistyczny w Olsztynie"/>
+                        </div> <!-- end .feature-content -->
+                    </div><!-- end .four-column -->
+                    <div class="four-column">
+                        <div class="feature-content">
+                            <img src="https://caem2019.pl/wp-content/uploads/2019/02/UWM-logo-wydzialu_medycznego-final-e1549268647279.jpg"
+                                 alt="Wydział Lekarski Collegium Medicum"/>
+                        </div> <!-- end .feature-content -->
+                    </div><!-- end .four-column -->
+
+                </div><!-- .end column-->
+            </div><!-- .container -->
+        </div><!-- end .our-feature-box -->
+        <?php do_action('apply_header_images', '<div class="header_image"><h2 style="background-image: url(%url%);">%title%</h2></div>'); ?>
+        <?php
+        $enable_slider = $event_settings['event_enable_slider'];
+        if ($enable_slider == 'frontpage' || $enable_slider == 'enitresite') {
+            if (is_front_page() && ($enable_slider == 'frontpage')) {
+                if ($event_settings['event_slider_type'] == 'default_slider') {
+                    event_sticky_post_sliders();
+                } else {
+                    if (class_exists('Event_Plus_Features')):
+                        do_action('event_image_sliders');
+                    endif;
+                }
+            }
+            if ($enable_slider == 'enitresite') {
+                if ($event_settings['event_slider_type'] == 'default_slider') {
+                    event_sticky_post_sliders();
+                } else {
+                    if (class_exists('Event_Plus_Features')):
+                        do_action('event_image_sliders');
+                    endif;
+                }
+            }
+        } ?>
+    </header> <!-- end #masthead -->
+    <!-- Main Page Start ============================================= -->
+    <div id="content">
+        <?php if (!is_page_template('page-templates/event-corporate.php')){ ?>
+        <div class="container clearfix">
+            <?php
+            }
+            if (!is_page_template('page-templates/event-corporate.php')) {
+                $custom_page_title = apply_filters('event_filter_title', ''); ?>
+                <div class="page-header">
+                    <?php if (is_front_page()) { ?>
+                        <h2 class="page-title"><?php echo event_title(); ?></h2>
+                    <?php } else { ?>
+                        <div style="position: relative; text-align: center; color: white;">
+                            <img src="https://caem2019.pl/wp-content/uploads/2019/02/CAEM-header.jpg" alt="header" />
+<!--                            <h1 style="text-align: center; font-size: 1.4em; margin: 0 auto;">--><?php //echo event_title(); ?><!--</h1>-->
+                            <div class="page-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 36px;"><?php echo strtoupper(event_title()); ?></div>
+<!--                            <h1 class="page-title" style="position: center">--><?php //echo event_title(); ?><!--</h1>-->
+                        </div>
+                    <?php } ?>
+                    <!-- .page-title -->
+                    <?php event_breadcrumb(); ?>
+                    <!-- .breadcrumb -->
+                </div>
+                <!-- .page-header -->
+            <?php }
+            if (is_page_template('upcoming-event-template.php') || is_page_template('program-schedule-template.php')) {
+                echo '</div><!-- end .container -->';
+            }
